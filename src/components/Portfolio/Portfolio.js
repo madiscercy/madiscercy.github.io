@@ -10,6 +10,7 @@ const projects = [
 	},
 	{
 		name: 'Bits and Bytes',
+		languages: 'Handlebars.js, JavaScript, Node.js, HTML, CSS',
 		image: require('../../images/bits-and-bytes.png'),
 		deployedUrl: 'https://bits-and-bytes.herokuapp.com/',
 		repoUrl: 'https://github.com/IsaiahGz/bits-and-bytes',

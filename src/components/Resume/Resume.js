@@ -3,39 +3,68 @@ import pdf from '../../Madison_Scercy_Resume.pdf';
 
 const Resume = () => {
 	return (
-		<div className='container mx-auto px-4  md:mb-0 mb-48'>
+		<div className='container mx-auto px-4 mb-48'>
 			<h1 className='text-center text-4xl mt-4 font-semibold'>Resume</h1>
-
+			<div className='mt-8 text-center'>
+				<a href={pdf} download className='bg-red-200 hover:bg-red-300 text-white font-bold py-2 px-4 rounded'>
+					Download My Resume (PDF)
+				</a>
+			</div>
 			<div className='mt-8'>
 				<h2 className='text-2xl font-semibold mb-2'>Proficiencies</h2>
 				<ul className='list-disc ml-5'>
-					<li>JavaScript</li>
-					<li>React.js</li>
-					<li>Node.js</li>
-					<li>Express.js</li>
-					<li>MySQL</li>
-					<li>MongoDB</li>
-					<li>... and more!</li>
+					<li>React (Average)</li>
+					<li>JavaScript (Basic)</li>
+					<li>Angular (Basic)</li>
+					<li>TypeScript/JavaScript (Average)</li>
+					<li>Node.js (Average)</li>
+					<li>Python (Basic)</li>
+					<li>AWS (Basic)</li>
 				</ul>
 			</div>
-
 			<div className='mt-8'>
-				<h2 className='text-2xl font-semibold mb-2'>Experience</h2>
+				<h2 className='text-2xl font-semibold mb-2'>Education</h2>
 				<div>
-					<h3 className='text-xl font-semibold'>Skin Therapist at Ulta</h3>
-					<p className='italic'>Febuary 2021 - December 2022</p>
+					<h3 className='text-xl font-semibold'>The Coding Boot Camp, UNC Charlotte</h3>
+					<p className='italic'>95 Grade Average, Team Projects</p>
 					<p>
-						{' '}
-						As a licensed esthetician, I had many roles at Ulta. I provided skin treatments, much as microdermabrasion, chemical peels, high
-						frequency, and more. I also was in charge of makeup applications. I had to keep up with client re-bookings and guest
-						relationships. Customer service was an important role in my job, as I also had to interact with customers on the floor and
-						convert them to my clients.
+						Multiple GitHub Repositories with Deployed Applications like Vitality Vault and Bits and Bytes. Used technologies such as React,
+						JavaScript, Node.js, SQL, HTML, CSS
+					</p>
+					<h3 className='text-xl font-semibold'>Esthetician Certification, Aveda Institute</h3>
+					<h3 className='text-xl font-semibold'>High School Diploma, Piedmont High School</h3>
+				</div>
+			</div>
+			<div className='mt-8'>
+				<h2 className='text-2xl font-semibold mb-2'>Projects</h2>
+				<div>
+					<h3 className='text-xl font-semibold'>Art Alchemy (artalchemy.io)</h3>
+					<p>
+						An AWS native website where a user may select five pieces of artwork and which a new piece of artwork will be generated based on
+						those pieces. Uses multiple APIs, such as the OpenAI DALLE-2 API to generate the image.
 					</p>
 				</div>
-				<div className='mt-8'>
-					<a href={pdf} download className='bg-red-200 hover:bg-red-300 text-white font-bold py-2 px-4 rounded'>
-						Download My Resume
-					</a>
+			</div>
+			<div className='mt-8'>
+				<h2 className='text-2xl font-semibold mb-2'>Certifications and Memberships</h2>
+				<div>
+					<h3 className='text-xl font-semibold'>AWS Cloud Practitioner Certification</h3>
+					<p className='italic'>
+						In Progress - Currently in the process of studying for the exam and learning more about AWS. The exam is scheduled for June 23.
+					</p>
+					<h3 className='text-xl font-semibold'>Women Who Code, Member</h3>
+					<p className='italic'>Jan 2023 - Present</p>
+				</div>
+			</div>
+			<div className='mt-8'>
+				<h2 className='text-2xl font-semibold mb-2'>Work Experience</h2>
+				<div>
+					<h3 className='text-xl font-semibold'>Skin Therapist, ULTA Beauty, Matthews, NC</h3>
+					<p className='italic'>2021-02 - 2022-12</p>
+					<p>Collaborated with large, diverse team to work together to drive customer satisfaction and sales.</p>
+					<h3 className='text-xl font-semibold'>Hostess, O'Charley's, Monroe, NC</h3>
+					<p className='italic'>Previous Role</p>
+					<p>Helped facilitate cooperation between service and kitchen staff to professionally meet guest needs and resolve problems.</p>
 				</div>
 			</div>
 		</div>
