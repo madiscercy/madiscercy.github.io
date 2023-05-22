@@ -3,7 +3,7 @@ import pdf from '../../Madison_Scercy_Resume.pdf';
 
 const Resume = () => {
 	return (
-		<div className='container mx-auto px-4'>
+		<div className='container mx-auto px-4  md:mb-0 mb-48'>
 			<h1 className='text-center text-4xl mt-4 font-semibold'>Resume</h1>
 
 			<div className='mt-8'>
