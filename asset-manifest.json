@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a15480d5.css",
-    "main.js": "/static/js/main.8bc82b9e.js",
+    "main.css": "/static/css/main.8abf7a2b.css",
+    "main.js": "/static/js/main.9e09d07d.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/simultaneous-searches.png": "/static/media/simultaneous-searches.f5522bec2cfc6f93a970.png",
     "static/media/vitality-vault.png": "/static/media/vitality-vault.e2112f0178ba2ea9d404.png",
     "static/media/bits-and-bytes.png": "/static/media/bits-and-bytes.adedd7a99464a4d3a4a4.png",
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.559bbddf544c85ab4e11.png",
+    "static/media/Madison-Scercy-Profile-Picture.jpeg": "/static/media/Madison-Scercy-Profile-Picture.383642dca8ea5a6cb93e.jpeg",
     "static/media/note-taker.png": "/static/media/note-taker.663cea58a3f71a1f1ee3.png",
     "static/media/code-quiz.png": "/static/media/code-quiz.1aa049141f4e4f3cffe0.png",
     "static/media/Madison-Scercy.pdf": "/static/media/Madison-Scercy.803a3a5e7f7956c426fe.pdf",
-    "static/media/madi.png": "/static/media/madi.a3f9796f39bb9372e115.png",
     "index.html": "/index.html",
-    "main.a15480d5.css.map": "/static/css/main.a15480d5.css.map",
-    "main.8bc82b9e.js.map": "/static/js/main.8bc82b9e.js.map",
+    "main.8abf7a2b.css.map": "/static/css/main.8abf7a2b.css.map",
+    "main.9e09d07d.js.map": "/static/js/main.9e09d07d.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a15480d5.css",
-    "static/js/main.8bc82b9e.js"
+    "static/css/main.8abf7a2b.css",
+    "static/js/main.9e09d07d.js"
   ]
 }
