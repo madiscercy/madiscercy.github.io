@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 function Navigation() {
 	return (
 		<nav className='navigation'>
-			<ul className='flex justify-around py-4 px-6 text-2xl md:space-between'>
+			<ul className='flex flex-col md:flex-row md:justify-around text-center py-4 px-6 text-md md:text-2xl md:mr-0 space-y-4 md:space-y-0'>
 				<li className='nav-item'>
 					<NavLink to='/' className='text-gray-700 hover:text-gray-500'>
 						About Me

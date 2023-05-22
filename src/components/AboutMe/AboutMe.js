@@ -3,7 +3,7 @@ import madi from '../../images/Madison-Scercy-Profile-Picture.jpeg';
 
 const About = () => {
 	return (
-		<div className='container mx-auto px-4'>
+		<div className='container mx-auto px-4 md:mb-0 mb-48'>
 			<h1 className='text-center text-4xl mt-4 font-semibold'>About Me</h1>
 			<div className='flex justify-center py-8'>
 				<img src={madi} alt='Madison Scercy profile picture' className='w-60 h- object-cover rounded-full' />

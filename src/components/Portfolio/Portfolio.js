@@ -44,7 +44,7 @@ const Portfolio = () => {
 	return (
 		<div className='px-4 mb-20'>
 			<h1 className='text-center text-4xl mt-4 font-semibold'>Portfolio</h1>
-			<div className='grid grid-cols-3 gap-4 py-8'>
+			<div className='grid md:grid-cols-3 grid-cols-1 gap-4 py-8'>
 				{projects.map((project, index) => (
 					<div key={index} className='border p-2 text-center'>
 						<div className='w-full h-48 overflow-hidden'>
