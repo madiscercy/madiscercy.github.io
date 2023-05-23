@@ -25,19 +25,21 @@ const projects = [
 	{
 		name: 'Note Taker',
 		image: require('../../images/note-taker.png'),
-		languages: 'Handlebars.js, JavaScript, Node.js, HTML, CSS',
+		languages: 'Handlebars.js, Express.js JavaScript, HTML, CSS',
 		deployedUrl: 'https://module-11-note-taker.herokuapp.com/',
 		repoUrl: 'https://github.com/madiscercy/Note-Taker-11',
 	},
 	{
 		name: 'Weather Dashboard',
 		image: require('../../images/weather-dashboard.png'),
+		languages: 'JavaScript, HTML, CSS',
 		deployedUrl: 'https://madiscercy.github.io/Weather-Dashboard06/',
 		repoUrl: 'https://github.com/madiscercy/Weather-Dashboard06',
 	},
 	{
 		name: 'Code Quiz',
 		image: require('../../images/code-quiz.png'),
+		languages: 'JavaScript, HTML, CSS',
 		deployedUrl: 'https://madiscercy.github.io/Code-Quiz-Challenge04/',
 		repoUrl: 'https://github.com/madiscercy/Code-Quiz-Challenge04',
 	},
