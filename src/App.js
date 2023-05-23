@@ -8,19 +8,26 @@ import Resume from './components/Resume/Resume';
 import Footer from './components/Footer/Footer';
 import './output.css';
 import './App.css';
+import { useSelector } from 'react-redux';
 
 function App() {
+	const currentPage = useSelector((state) => state.page);
+
+	let page;
+	if (currentPage === 'about') {
+		page = <About />;
+	} else if (currentPage === 'portfolio') {
+		page = <Portfolio />;
+	} else if (currentPage === 'resume') {
+		page = <Resume />;
+	}
+
 	return (
-		<Router>
+		<div>
 			<Header />
-			<Routes>
-				<Route path='/' element={<About />} />
-				<Route path='/portfolio' element={<Portfolio />} />
-				<Route path='/contact' element={<Contact />} />
-				<Route path='/resume' element={<Resume />} />
-			</Routes>
+			{page}
 			<Footer />
-		</Router>
+		</div>
 	);
 }
 

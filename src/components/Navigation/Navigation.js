@@ -1,26 +1,38 @@
-// Navigation.js
-
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 
 function Navigation() {
+	const dispatch = useDispatch();
+
+	const aboutMeClick = () => {
+		dispatch({ type: 'ABOUT_ME' });
+	};
+
+	const portfolioClick = () => {
+		dispatch({ type: 'PORTFOLIO' });
+	};
+
+	const resumeClick = () => {
+		dispatch({ type: 'RESUME' });
+	};
+
 	return (
 		<nav className='navigation'>
 			<ul className='flex flex-col md:flex-row md:justify-around text-center py-4 px-6 text-md md:text-2xl md:mr-0 space-y-4 md:space-y-0'>
 				<li className='nav-item'>
-					<NavLink to='/' className='text-gray-700 hover:text-gray-500'>
+					<button onClick={aboutMeClick} className='text-gray-700 hover:text-gray-500'>
 						About Me
-					</NavLink>
+					</button>
 				</li>
 				<li className='nav-item'>
-					<NavLink to='/portfolio' className='text-gray-700 hover:text-gray-500'>
+					<button onClick={portfolioClick} className='text-gray-700 hover:text-gray-500'>
 						Portfolio
-					</NavLink>
+					</button>
 				</li>
 				<li className='nav-item'>
-					<NavLink to='/resume' className='text-gray-700 hover:text-gray-500'>
+					<button onClick={resumeClick} className='text-gray-700 hover:text-gray-500'>
 						Resume
-					</NavLink>
+					</button>
 				</li>
 			</ul>
 		</nav>

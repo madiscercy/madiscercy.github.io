@@ -32,7 +32,9 @@ const Resume = () => {
 						JavaScript, Node.js, SQL, HTML, CSS
 					</p>
 					<h3 className='text-xl font-semibold'>Esthetician Certification, Aveda Institute</h3>
+					<p className='italic'>2020-02 - 2020-08</p>
 					<h3 className='text-xl font-semibold'>High School Diploma, Piedmont High School</h3>
+					<p className='italic'>2013-08 - 2017-06</p>
 				</div>
 			</div>
 			<div className='mt-8'>
