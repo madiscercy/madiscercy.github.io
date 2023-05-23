@@ -13,13 +13,14 @@ const Resume = () => {
 			<div className='mt-8'>
 				<h2 className='text-2xl font-semibold mb-2'>Proficiencies</h2>
 				<ul className='list-disc ml-5'>
-					<li>React (Average)</li>
-					<li>JavaScript (Basic)</li>
-					<li>Angular (Basic)</li>
-					<li>TypeScript/JavaScript (Average)</li>
-					<li>Node.js (Average)</li>
-					<li>Python (Basic)</li>
-					<li>AWS (Basic)</li>
+					<li>React</li>
+					<li>JavaScript</li>
+					<li>Angular</li>
+					<li>TypeScript/JavaScript</li>
+					<li>Node.js</li>
+					<li>Python</li>
+					<li>AWS</li>
+					<li>SQL</li>
 				</ul>
 			</div>
 			<div className='mt-8'>
