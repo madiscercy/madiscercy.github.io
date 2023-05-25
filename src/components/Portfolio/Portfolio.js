@@ -2,6 +2,13 @@ import React from 'react';
 
 const projects = [
 	{
+		name: 'Art Alchemy',
+		image: require('../../images/artalchemy.png'),
+		languages: 'Angular, AWS JavaScript, HTML, CSS',
+		deployedUrl: 'http://artalchemy.io/',
+		repoUrl: 'https://github.com/madiscercy/art-alchemy-webapp',
+	},
+	{
 		name: 'Vitality Vault',
 		languages: 'React, JavaScript, HTML, CSS, Tailwind CSS',
 		image: require('../../images/vitality-vault.png'),
@@ -22,13 +29,7 @@ const projects = [
 		deployedUrl: 'https://csnyder94.github.io/simultaneous-searches/',
 		repoUrl: 'https://github.com/csnyder94/simultaneous-searches',
 	},
-	{
-		name: 'Note Taker',
-		image: require('../../images/note-taker.png'),
-		languages: 'Handlebars.js, Express.js JavaScript, HTML, CSS',
-		deployedUrl: 'https://module-11-note-taker.herokuapp.com/',
-		repoUrl: 'https://github.com/madiscercy/Note-Taker-11',
-	},
+
 	{
 		name: 'Weather Dashboard',
 		image: require('../../images/weather-dashboard.png'),
