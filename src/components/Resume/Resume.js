@@ -52,9 +52,9 @@ const Resume = () => {
 				<h2 className='text-2xl font-semibold mb-2'>Certifications and Memberships</h2>
 				<div>
 					<h3 className='text-xl font-semibold'>AWS Cloud Practitioner Certification</h3>
-					<p className='italic'>
-						In Progress - Currently in the process of studying for the exam and learning more about AWS. The exam is scheduled for June 23.
-					</p>
+					<p className='italic'>(June 2023 - Expires June 2026)</p>
+					<h3 className='text-xl font-semibold'>Professional Scrum Master (PSM I)</h3>
+					<p className='italic'>(September 2023)</p>
 					<h3 className='text-xl font-semibold'>Women Who Code, Member</h3>
 					<p className='italic'>Jan 2023 - Present</p>
 				</div>

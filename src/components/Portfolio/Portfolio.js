@@ -4,7 +4,7 @@ const projects = [
 	{
 		name: 'Art Alchemy',
 		image: require('../../images/artalchemy.png'),
-		languages: 'Angular, AWS JavaScript, HTML, CSS',
+		languages: 'AWS, Angular, JavaScript, HTML, CSS',
 		deployedUrl: 'http://artalchemy.io/',
 		repoUrl: 'https://github.com/madiscercy/art-alchemy-webapp',
 	},
