@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../Madison_Scercy_Resume.pdf';
+import pdf from '../../MadisonScercyResume.pdf';
 
 const Resume = () => {
 	return (
