@@ -1,7 +1,4 @@
 {
-  "background": {
-    "color": "#282c34"
-  },
   "interactivity": {
     "events": {
       "onClick": {
@@ -31,12 +28,12 @@
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#ac3b61"
     },
     "links": {
       "color": "#ffffff",
       "distance": 150,
-      "enable": true,
+      "enable": false,
       "opacity": 0.5,
       "width": 1
     },
@@ -48,7 +45,7 @@
       "enable": true,
       "outMode": "bounce",
       "random": false,
-      "speed": 6,
+      "speed": 1,
       "straight": false
     },
     "number": {
@@ -65,7 +62,7 @@
     },
     "size": {
       "random": true,
-      "value": 5
+      "value": 2
     }
   }
 }
