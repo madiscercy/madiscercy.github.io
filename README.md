@@ -1,6 +1,6 @@
 # React Portfolio
 
-This is a portfolio website built with React and styled with Tailwind CSS.
+This is my old portfolio website built with React and styled with Tailwind CSS.
 
 ## Description
 
